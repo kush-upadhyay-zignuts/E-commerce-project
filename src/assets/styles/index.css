@@ -1,0 +1,14 @@
+@import './variable.css';
+
+
+.product-selector{
+
+    width: 15rem;
+    height: 3rem;
+    margin-left: 2rem;
+    
+    background-color: var(--text-color);
+    border-color:  var(--text-color) ;
+    
+   
+}

@@ -1,0 +1,58 @@
+.product-details {
+  height: 120vh;
+  width: 90vw;
+  position: relative;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  display: flex;
+  background-color: var(--text-color);
+  border-radius: 1rem;
+}
+.product-details-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.product-details-img img {
+  object-fit: contain;
+  height: 90%;
+  width: 90%;
+}
+.product-details-description {
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+.rating #rating-icon {
+  margin-top: 1rem;
+}
+.about {
+  display: flex;
+  gap: 10rem;
+  margin-top: 1rem;
+}
+.about ul {
+  list-style: none;
+}
+.more ul {
+  list-style: none;
+}
+.reviwer-detail {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.reviewer-comment {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+#review-date {
+  margin-left: 0.5rem;
+  margin-top: o.5rem;
+}
+.productdetails-buttons {
+  display: flex;
+  gap: 10rem;
+}
