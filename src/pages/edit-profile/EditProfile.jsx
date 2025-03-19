@@ -159,7 +159,7 @@ const EditProfile = () => {
             {errors.mobile && <span>{errors.mobile.message}</span>}
           </div>
 
-          <input id="submit" type="submit" /> 
+         {!edit && <input id="submit" type="submit" /> }
            {edit && <Button sx={{height: "5vh",width: "10vw",backgroundColor : "#ecf0f1",border:"2px solid black",color:"black",borderRadius:"0.5rem"}} variant="outlined"
             onClick={()=>{setEdit((prev)=>(!prev))}}>edit</Button>}
           <ToastContainer position="top-right" autoClose={3000} />
