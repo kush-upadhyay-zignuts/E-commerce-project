@@ -1,0 +1,99 @@
+.home-main {
+  height: auto;
+  width: 100%;
+  background-color: var(--root-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.MuiCard-root {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.05);
+}
+
+.MuiCardMedia-root {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.MuiCardContent-root {
+  text-align: center;
+}
+
+.MuiTypography-root {
+  font-weight: bold;
+}
+
+
+
+.home-main .MuiCard-root {
+  width: 23%;
+  min-width: 280px;
+  max-width: 350px;
+}
+
+
+.MuiPagination-root {
+  margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  .home-main {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .home-main .MuiCard-root {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .MuiPagination-root {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .home-main {
+    justify-content: space-around;
+  }
+
+  .home-main .MuiCard-root {
+    width: 45%;
+  }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .home-main .MuiCard-root {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .home-main .MuiCard-root {
+    width: 23%;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+@import "../styles/variable.css";
+
+.cart{
+    background-color: var(--text-color);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 0.5rem;
+}

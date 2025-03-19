@@ -1,0 +1,55 @@
+.form-main {
+  height: 90vh;
+  width: 80vw;
+  position: relative;
+  background-color: var(--text-color);
+  margin-top: 5vh;
+  margin-left: 10vw;
+  border-radius: 1rem;
+  justify-content: center;
+  
+}
+
+.form-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.form {
+  height: 100%;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin-left: 10%;
+}
+
+#firstname,
+#lastname,
+#email,
+#password,
+#confirmpassword,
+#mobile {
+  height: 1vh;
+  width: 50vw;
+}
+#submit {
+  height: 5vh;
+  width: 10vw;
+  border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+  

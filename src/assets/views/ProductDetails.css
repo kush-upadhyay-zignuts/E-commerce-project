@@ -1,0 +1,162 @@
+.product-details {
+  height: 120vh;
+  width: 90vw;
+  position: relative;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  display: flex;
+  background-color: var(--text-color);
+  border-radius: 1rem;
+}
+
+.product-details-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.product-details-img img {
+  object-fit: contain;
+  height: 90%;
+  width: 90%;
+}
+.product-details-description {
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+.rating #rating-icon {
+  margin-top: 1rem;
+}
+.about {
+  display: flex;
+  gap: 10rem;
+  margin-top: 1rem;
+}
+.about ul {
+  list-style: none;
+}
+.more ul {
+  list-style: none;
+}
+.reviwer-detail {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.reviewer-comment {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+#review-date {
+  margin-left: 0.5rem;
+  margin-top: o.5rem;
+}
+.productdetails-buttons {
+  display: flex;
+  gap: 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .product-details {
+    flex-direction: column;
+    height: auto;
+    width: 95vw;
+    margin-left: 2.5vw;
+    padding: 1rem;
+  }
+  .product-details-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .product-details-img img {
+    height: 60%;
+    width: 60%;
+  }
+  .product-details-description {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .about {
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
+  .productdetails-buttons {
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-details {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 2vh 0;
+    padding: 1rem;
+  }
+  .product-details-img {
+    width: 100%;
+    height: auto;
+  }
+  .product-details-img img {
+    height: 70%;
+    width: 70%;
+  }
+  .product-details-description {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .about {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .more ul {
+    padding-left: 1rem;
+  }
+  .reviwer-detail {
+    flex-direction: row;
+  }
+  .reviewer-comment {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .productdetails-buttons {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .product-details {
+    padding: 0.5rem;
+  }
+  .product-details-img img {
+    height: 50%;
+    width: 50%;
+  }
+  .product-details-description h1,
+  .product-details-description h2 {
+    font-size: 1rem;
+  }
+  .about ul,
+  .more ul {
+    font-size: 0.9rem;
+  }
+  .reviwer-detail h4 {
+    font-size: 0.9rem;
+  }
+  .productdetails-buttons {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .productdetails-buttons button {
+    width: 100%;
+  }
+}
