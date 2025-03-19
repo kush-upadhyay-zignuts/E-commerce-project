@@ -10,6 +10,14 @@
   padding: 1rem;
 }
 
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+}
+
+
 .MuiCard-root {
   width: 100%;
   max-width: 320px;
