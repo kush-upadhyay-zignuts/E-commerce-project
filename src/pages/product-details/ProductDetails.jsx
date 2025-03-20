@@ -72,6 +72,7 @@ const ProductDetails = () => {
           <Rating
             id="rating-icon"
             name="simple-controlled"
+            readOnly
             value={productDetails?.rating || 4}
             sx={{ ml: "-0.2rem", mt: "1rem" }}
           />
@@ -148,6 +149,7 @@ const ProductDetails = () => {
                   <Rating
                     id="rating-icon"
                     name="simple-controlled"
+                    readOnly
                     value={review.rating || 4}
                     sx={{ ml: "-0.2rem" }}
                   />
